@@ -65,7 +65,7 @@ type AugeasRes struct {
 
 // AugeasSet represents a key/value pair of settings to be applied.
 type AugeasSet struct {
-	Path  string `lang:"path" yaml:"path"`  // The relative path to the value to be changed.
+	Path  string `lang:"path" yaml:"path"`   // The relative path to the value to be changed.
 	Value string `lang:"value" yaml:"value"` // The value to be set on the given Path.
 }
 
